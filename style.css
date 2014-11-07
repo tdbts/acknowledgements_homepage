@@ -37,11 +37,7 @@
 }
 
 #content_container {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
+	margin-top: 50px;
 }
 
 #scroll-able {
@@ -56,9 +52,9 @@
 	background: #9CF;
 }
 
-listgroup li.active a,
-listgroup li.active:hover,
-listgroup li.focus a {
+.listgroup li.active a,
+.listgroup li.active:hover,
+.listgroup li.focus a {
 	color: #FFF;
 }
 
