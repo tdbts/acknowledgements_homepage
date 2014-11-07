@@ -1,0 +1,67 @@
+/* NAVBAR CSS */
+.navbar, #my_navbar, .navbar-nav, .contact_icon {
+	margin-bottom: 0px;
+}
+
+.navbar {
+	background-color: #333;
+	border: 0px;
+}
+
+.navbar-nav {
+	padding-bottom: 0px;
+}
+
+.nav > li > a:not(.text_link) {
+	padding: 10px;
+}
+
+.nav > li > a:not(.text_link), #email_input {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.popover {
+	background-color: #E74C3C;
+	color: #ECF0F1;
+	width: 120px;
+}
+
+.popover.right .arrow:after {
+	border-right-color: #E74C3C;
+}
+/* END OF NAVBAR CSS */
+
+#page_header {
+	margin-left: 15px;
+}
+
+#content_container {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+#scroll-able {
+	height: 400px;
+	overflow: scroll;
+	border: 1px solid #CDCDCD;
+}
+
+.listgroup li.active,
+.listgroup li.active:hover,
+.listgroup li.active:focus {
+	background: #9CF;
+}
+
+listgroup li.active a,
+listgroup li.active:hover,
+listgroup li.focus a {
+	color: #FFF;
+}
+
+.text_content {
+	padding: 5px;
+}
