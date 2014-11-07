@@ -41,9 +41,10 @@
 }
 
 #scroll-able {
-	height: 400px;
+	height: 500px;
 	overflow: scroll;
 	border: 1px solid #CDCDCD;
+	background-color: #EEEEEE;
 }
 
 .listgroup li.active,
