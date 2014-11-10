@@ -41,21 +41,21 @@
 }
 
 #scroll-able {
-	height: 500px;
+	height: 400px;
 	overflow: scroll;
 	border: 1px solid #CDCDCD;
 	background-color: #EEEEEE;
 }
 
-.listgroup li.active,
-.listgroup li.active:hover,
-.listgroup li.active:focus {
+.list-group li.active,
+.list-group li.active:hover,
+.list-group li.active:focus {
 	background: #9CF;
 }
 
-.listgroup li.active a,
-.listgroup li.active:hover,
-.listgroup li.focus a {
+.list-group li.active a,
+.list-group li.active:hover,
+.list-group li.focus a {
 	color: #FFF;
 }
 
