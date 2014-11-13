@@ -32,6 +32,22 @@
 }
 /* END OF NAVBAR CSS */
 
+/*For proper alignment of input fields in modal form*/
+.input-group[class*="col-"] {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.popover {
+	background-color: #E74C3C;
+	color: #ECF0F1;
+	width: 120px;
+}
+
+.popover.right .arrow:after {
+	border-right-color: #E74C3C;
+}
+
 #page_header {
 	margin-left: 15px;
 }
