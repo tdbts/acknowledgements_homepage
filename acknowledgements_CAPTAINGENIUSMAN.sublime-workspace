@@ -295,7 +295,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10849,
+				"buffer_size": 10555,
 				"line_ending": "Windows"
 			}
 		},
@@ -303,7 +303,7 @@
 			"file": "script.js",
 			"settings":
 			{
-				"buffer_size": 63,
+				"buffer_size": 1133,
 				"line_ending": "Windows"
 			}
 		},
@@ -311,7 +311,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 908,
+				"buffer_size": 1176,
 				"line_ending": "Windows"
 			}
 		}
@@ -654,6 +654,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"6>",
+			"p>",
+			"p",
+			"four",
+			"#",
+			"three",
+			"two",
+			"one",
+			"Four",
 			"></",
 			"id=",
 			"one",
@@ -772,16 +781,7 @@
 			"Grailbird",
 			"grail",
 			"	\n",
-			"return",
-			"i",
-			"tfs",
-			"o",
-			"questiontoDisplay",
-			"load",
-			"border",
-			"canvas",
-			">\n",
-			"selectedAlbum"
+			"return"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -811,15 +811,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 10849,
+						"buffer_size": 10555,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5313,
-								5313
+								4222,
+								4222
 							]
 						],
 						"settings":
@@ -876,7 +876,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1333.0,
+						"translation.y": 991.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -884,7 +884,7 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -892,15 +892,15 @@
 					"file": "script.js",
 					"settings":
 					{
-						"buffer_size": 63,
+						"buffer_size": 1133,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								63,
-								63
+								662,
+								662
 							]
 						],
 						"settings":
@@ -956,7 +956,7 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 147.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -966,15 +966,15 @@
 					"file": "style.css",
 					"settings":
 					{
-						"buffer_size": 908,
+						"buffer_size": 1176,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								891,
-								891
+								613,
+								613
 							]
 						],
 						"settings":
@@ -1027,10 +1027,11 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 349.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

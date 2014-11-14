@@ -13,6 +13,16 @@ $(document).ready(function() {
 		});
 	}
 
+	function attachLinks(selectorsAndURLs) {
+		selectorsAndURLs.forEach(function(obj) {
+			
+			$(obj.selector).on('click', function() {
+				
+				window.open(obj.url);
+			});
+		});
+	}
+
 	function emailModalAJAX() {
 
 		$('#send_email_btn').on('click', function(event) {
@@ -52,6 +62,13 @@ $(document).ready(function() {
 	}
 
 	emailModalAJAX();
+
+	var linkData = [
+		{selector: "#twitter_icon", url: "https://twitter.com/vrsanchez8717"},
+		{selector: "#github_icon", url: "https://github.com/tdbts"} 
+		];
+
+	attachLinks(linkData);
 
 	$('#send_email_btn').popover({content: 'Thanks for reaching out!'}, 'click');
 
